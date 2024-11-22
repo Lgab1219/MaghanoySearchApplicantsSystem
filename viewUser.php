@@ -11,7 +11,7 @@ require_once 'core/handleForms.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet"  href="css/styles.css">
     <title>View Applicants</title>
 </head>
 <body>
@@ -44,7 +44,7 @@ require_once 'core/handleForms.php';
         </tr>
 
         <?php foreach ($applicants as $applicant): ?>
-            <tr class="applicantsTable">
+            <tr>
                 <td style="border: 2px solid black; padding: 5px;"><?php echo $applicant['lname']; ?></td>
                 <td style="border: 2px solid black; padding: 5px;"><?php echo $applicant['fname']; ?></td>
                 <td style="border: 2px solid black; padding: 5px;"><?php echo $applicant['assigned_sub']; ?></td>

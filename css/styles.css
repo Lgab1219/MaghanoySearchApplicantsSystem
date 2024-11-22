@@ -1,5 +1,18 @@
-.applicantsTable {
+.applicantsTable, .activityLogsTable {
     border: 2px solid black;
     padding: 5px;
     width: 50%;
+}
+
+.tabs {
+    border: 2px solid black;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form {
+    border: 2px solid black;
+    padding: 5px;
+    display: inline-block
 }
